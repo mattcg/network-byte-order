@@ -4,7 +4,7 @@ These routines are used for converting values between host and [network byte ord
 
 Derived from [an implementation](http://blog.couchbase.com/starting-membase-nodejs) by Membase, Inc.
 
-### Usage ###
+## Usage ##
 
 ### `htonl(b, i, v)` ###
 

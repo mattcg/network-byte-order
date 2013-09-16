@@ -2,7 +2,7 @@
 	"name": "network-byte-order",
 	"description": "htonl, htons, ntohl, ntohs - convert values between host and network byte order.",
 	"version": "0.1.2",
-	"main": "lib/network-byte-order.js",
+	"main": "lib/index.js",
 	"homepage": "https://github.com/mattcg/network-byte-order",
 	"implements": ["CommonJS/Modules/1.0"],
 	"contributors": [
@@ -26,5 +26,11 @@
 			"type": "Apache License, Version 2.0",
 			"url": "http://www.apache.org/licenses/LICENSE-2.0"
 		}
-	]
+	],
+	"devDependencies": {
+		"jscoverage": "0.x",
+		"mocha": "1.x",
+		"mocha-lcov-reporter" : "0.x",
+		"coveralls": "2.x"
+	}
 }

@@ -1,5 +1,8 @@
 # JavaScript implementation of htonl, htons, ntohl, ntohs #
 
+[![Build Status](https://travis-ci.org/mattcg/network-byte-order.png?branch=master)](https://travis-ci.org/mattcg/network-byte-order)
+[![Coverage Status](https://coveralls.io/repos/mattcg/network-byte-order/badge.png)](https://coveralls.io/r/mattcg/network-byte-order)
+
 These routines are used for converting values between host and [network byte order](http://en.wikipedia.org/wiki/Endianness#Endianness_in_networking).
 
 Derived from [an implementation](http://blog.couchbase.com/starting-membase-nodejs) by Membase, Inc.
